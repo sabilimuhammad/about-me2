@@ -1,0 +1,192 @@
+@font-face {
+    src: url('../fonts/SF-Pro-Display-Semibold.otf');
+    font-family: sfSemibold;
+}
+
+@font-face {
+    src: url('../fonts/SF-Pro-Display-Bold.otf');
+    font-family: sfBold;
+}
+
+@font-face {
+    src: url('../fonts/SF-Pro-Display-Medium.otf');
+    font-family: sfMedium;
+}
+
+@font-face {
+    src: url('../fonts/SF-Pro-Display-Regular.otf');
+    font-family: sfRegular;
+}
+
+$black-smoke:rgba(0,0,0, 0.5);
+
+// Home Style
+
+.home-s {
+    background-image: url('../images/mac2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color:black !important;
+    overflow-x: hidden;
+    .hi{
+        color: white;
+        margin-top: 370px;
+        font-size: 25px;
+    }
+}
+
+.soft-eng{
+    font-size: 84px;
+    color: white;
+    margin-top: 16px;
+}
+
+button{
+    outline: none !important;
+}
+
+.bot{
+    color: yellow;
+}
+
+.darken-overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 0;
+}
+
+// Navbar Style
+ol,
+ul{
+    list-style: none;
+}
+ 
+li{
+    opacity: 1;
+    transition: 0.3s;
+    &:hover {
+        text-decoration: none;
+        opacity: 0.6;
+    }
+}
+
+.nav-links{
+    display: flex;
+}
+
+
+a {
+    color: white !important;
+    &:hover {
+        text-decoration: none !important;
+    } 
+}
+
+.nav-bar {
+    background: rgba(0,0,0, 0.9);
+    text-decoration: none;  
+}
+
+.logo-b{
+    opacity: 1;
+    transition: 0.3s;
+    margin-left: 1rem;
+    &:hover {
+        text-decoration: none;
+        opacity: 0.6;
+    }
+}
+
+//responsive
+
+@media (min-width: 375px) and (max-width:667px){
+    .hamburger{
+        display: inline-block !important;
+        position: absolute;
+        right: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .links-container{
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0, 0.5);
+        backdrop-filter: blur(10px);
+        position: fixed;
+    }
+    .nav-links{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0;
+        transform: translate(-50%,-50%);
+        .nav-item{
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: sfSemibold;
+            font-size: 2rem;
+        }
+    }
+  }
+
+//   About styling
+
+.about-page{
+    color: white;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+}
+
+.ava{
+    size: 1px;
+}
+
+.title-about{
+    text-align: left;
+    font-size: 80px;
+    position: relative;
+}
+
+.my-name{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.description{
+    font-size: 14px;
+    text-align: left;
+    line-height: 32px;
+}
+
+.about-page-2{
+    left: 100px;
+    top: 110px;
+}
+
+.skills{
+    font-size: 60px;  
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.centered{
+    height: 100%;
+    margin: auto;
+    width: 50%;
+}
