@@ -3,7 +3,7 @@
     <div class="container h-100 d-flex align-items-center">
       <div class="row">
         <div class="about-page-1 col-lg-6 col-md-12 col-sm-12">
-          <img class="img-fluid" src="../assets/images/me.png" alt />
+          <img class="img-fluid" src="../assets/images/me.png" alt="" />
         </div>
         <div class="about-page-2 col-lg-6 col-md-12 col-sm-12">
           <div>
@@ -103,6 +103,15 @@
         aria-valuemin="0"
         aria-valuemax="100"
       ></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <span class="title-lang">Language</span>
+    <br>
+    <br>
+    <div class="language">
+    <img class="img-fluid" src="../assets/images/lang.png" alt=""/> 
     </div>
     </div>
   </div>
