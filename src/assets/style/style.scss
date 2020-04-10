@@ -42,7 +42,7 @@ body {
 }
 
 .soft-eng{
-    font-size: 84px;
+    font-size: 78px;
     color: white;
     margin-top: 16px;
 }
@@ -90,8 +90,10 @@ a {
 }
 
 .nav-bar {
-    background: rgba(0,0,0, 0.9);
-    text-decoration: none;  
+    background-color: rgba(0,0,0, 0.9);
+    font-family: sfMedium;  
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .logo-b{
@@ -151,10 +153,6 @@ a {
     padding: 1rem;
 }
 
-.ava{
-    size: 1px;
-}
-
 .title-about{
     text-align: left;
     font-size: 80px;
@@ -186,16 +184,73 @@ a {
 }
 
 .centered{
-    height: 100%;
+    height: 65%;
     margin: auto;
     width: 50%;
 }
 
-.language{
-    margin: auto;
-    width: 80%;
+.title-lang{ 
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
 }
 
-.title-lang{
-    font-size: 28px;
+.language{
+    height: 50%;
+    margin: auto;    
+    margin: auto;
+    width: 50%;
 }
+
+// Contact Style
+
+.contact-font{
+    font-size: 60px;
+    font-family: sfmedium;
+    color: white;
+}
+
+.intro{
+    color: white;
+    font-family: sfRegular;
+}
+
+.text-field{
+    color: white;
+    font-family: sfRegular;
+}
+
+.field-color{
+    color: white;
+    background-color: $black-smoke;
+    border:3px solid #555;
+}
+
+.field-name{
+    padding: 8px 38px;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 12px;
+}
+
+.field-subject{
+    padding: 8px 38px;
+    border-radius: 12px;
+}
+
+.field-desc{
+    padding: 100px 38px;
+    border-radius: 12px;
+}
+.send-button{
+    border-radius: 20px;
+    background-color: yellow;
+    text-decoration-color:black;
+    border: none;
+    padding: 4px 30px;
+    font-family: sfMedium;
+    position: absolute;
+    top: 82%;
+    left: 22%;
+}
+

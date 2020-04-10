@@ -15,9 +15,9 @@
           <li class="mx-5 nav-item">
             <router-link to="/about">About</router-link>
           </li>
-          <li class="mx-5 nav-item">
+          <!-- <li class="mx-5 nav-item">
             <router-link to="/portfolio">Portofolio</router-link>
-          </li>
+          </li> -->
           <li class="mx-5 nav-item">
             <router-link to="/contact">Contact</router-link>
           </li>
